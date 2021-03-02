@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="titleSize">45dp</dimen>
+    <dimen name="NameSize">30sp</dimen>
+    <dimen name="ConfirmSize">45sp</dimen>
+    <dimen name="LettersSize">25sp</dimen>
+    <dimen name="ValuesSize">19sp</dimen>
+
+    <dimen name="leftMargin">20dp</dimen>
+    <dimen name="rightMargin">20dp</dimen>
+    <dimen name="topMarginTitle">30dp</dimen>
+    <dimen name="linesSpace">7dp</dimen>
+
+    <dimen name="topMargin">20dp</dimen>
+    <dimen name="topTelMargin">130dp</dimen>
+    <dimen name="topMailMargin">210dp</dimen>
+    <dimen name="topDescriptionMargin">290dp</dimen>
+
+    <dimen name="leftRadius">20dp</dimen>
+    <dimen name="rightRadius">20dp</dimen>
+</resources>

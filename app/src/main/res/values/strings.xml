@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ContactsCoursera</string>
+
+    <string name="tvTitle">Información del Contacto</string>
+    <string name="tvConfirm">Confirmar datos</string>
+
+    <string name="tvFechaNacimiento">Fecha de nacimiento:</string>
+    <string name="tvFechaNacimientoLovecraft">AGO/20/1890</string>
+    <string name="btnNextText">Siguiente</string>
+    <string name="btnBackText">Editar Contacto</string>
+
+    <string name="tv2Name">Nombre: </string>
+    <string name="tv2Number">Tel: </string>
+    <string name="tv2Email">Email: </string>
+    <string name="tv2Date">Fecha: </string>
+    <string name="tv2Description">Descripción: </string>
+
+    <string name="Name1">Name1</string>
+    <string name="Date1">Date1</string>
+    <string name="Tel1">Tel1</string>
+    <string name="Mail1">Mail1</string>
+    <string name="Descrip1">Descrip1</string>
+
+    <string name="Name2">Name2</string>
+    <string name="Date2">Date2</string>
+    <string name="Tel2">Tel2</string>
+    <string name="Mail2">Mail2</string>
+    <string name="Descrip2">Descrip2</string>
+
+
+    <string name="hintEtName">Nombre Completo</string>
+    <string name="hintEtMail">Correo</string>
+    <string name="hintEtTel">Teléfono</string>
+    <string name="hintEtDescription">Descripción del contacto</string>
+
+    <string name="helperName">Ingresa aquí Nombre del contacto</string>
+    <string name="helperMail">holi@todobien.com</string>
+
+
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detailsContact">
+
+    <TextView
+        android:id="@+id/tvConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvConfirm"
+        android:textSize="@dimen/ConfirmSize"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="@dimen/topMargin"
+        android:layout_marginStart="@dimen/leftMargin"
+        android:layout_marginEnd="@dimen/rightRadius"
+        android:layout_marginLeft="@dimen/leftMargin"
+        android:layout_marginRight="@dimen/rightMargin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv2NameAux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv2Name"
+            android:textSize="@dimen/NameSize"
+            android:textStyle="bold"
+
+            android:layout_marginTop="@dimen/topMargin"
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin" />
+        <TextView
+            android:id="@+id/tv2Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ValuesSize"
+
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv2DateAux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/tv2Date"
+            android:textSize="@dimen/NameSize"
+            android:textStyle="bold"
+
+            android:layout_marginTop="@dimen/ValuesSize"
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"
+            />
+        <TextView
+            android:id="@+id/tv2Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ValuesSize"
+
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv2NumberAux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/tv2Number"
+            android:textSize="@dimen/NameSize"
+            android:textStyle="bold"
+
+            android:layout_marginTop="@dimen/ValuesSize"
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"
+            />
+        <TextView
+            android:id="@+id/tv2Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ValuesSize"
+
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv2EmailAux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/tv2Email"
+            android:textSize="@dimen/NameSize"
+            android:textStyle="bold"
+
+            android:layout_marginTop="@dimen/ValuesSize"
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"
+            />
+        <TextView
+            android:id="@+id/tv2Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ValuesSize"
+
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv2DescriptionAux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/tv2Description"
+            android:textSize="@dimen/NameSize"
+            android:textStyle="bold"
+
+            android:layout_marginTop="@dimen/ValuesSize"
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"
+            />
+        <TextView
+            android:id="@+id/tv2Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ValuesSize"
+
+            android:layout_marginStart="@dimen/leftMargin"
+            android:layout_marginEnd="@dimen/rightRadius"
+            android:layout_marginLeft="@dimen/leftMargin"
+            android:layout_marginRight="@dimen/rightMargin"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBackText"
+        android:textAllCaps="false"
+        android:shadowColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/topMargin"
+        />
+
+</LinearLayout>
